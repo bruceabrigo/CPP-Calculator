@@ -18,6 +18,15 @@ int main()
         case '+':
             cout << num1 + num2;
             break;
+        case '-':
+            cout << num1 - num2;
+            break;
+        case '/':
+            cout << num1 / num2;
+            break;
+        case '*':
+            cout << num1 * num2;
+            break;
         default:
             cout << "You entered an invalid operator. Please choose from the following (+, -, /, *) \n";
             break;
